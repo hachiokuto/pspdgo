@@ -7,7 +7,7 @@ for /f "tokens=4 delims=: " %%a in ('tools\aapt.exe dump badging baseapk.apk ^| 
 )
 echo ^<Compiler^>[92m %PACKAGE_NAME% [0m
 echo ^<Compiler^>[92m %VERSION_NAME% [0m
-if "%PACKAGE_NAME%"=="name='com.homy.graffiti.uc'" if "%VERSION_NAME%"=="versionName='1.0.6'" (
+if "%PACKAGE_NAME%"=="name='com.shiyu.paintman.party'" if "%VERSION_NAME%"=="versionName='1.2.10'" (
     echo ^<Compiler^> Correct APK! Proceeding to compile...
 	rd /s /q %~dp0build
 	md build
