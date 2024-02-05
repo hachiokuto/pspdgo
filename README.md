@@ -1,11 +1,12 @@
-# bzty
-Sepia Go 1.0.6 modified to work without servers.
+# pspd
+Paintman Go 3D 1.2.10 modified to work without servers.
+Probably doesn't work
 
 ## Compiling the APK on Windows
 
 (if you don't have java already, install it. it needs to be in your env path.)
 
-1. get an apk of Sepia Go 1.0.6
+1. get an apk of "Paint Man Go 3D" (package name is com.shiyu.paintman.party)
 2. rename the apk to `baseapk.apk`
 3. move the renamed apk to the repository
 4. run compile.bat
