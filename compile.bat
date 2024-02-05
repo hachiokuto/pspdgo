@@ -20,6 +20,6 @@ if "%PACKAGE_NAME%"=="name='com.shiyu.paintman.party'" if "%VERSION_NAME%"=="ver
 	echo ^<Compiler^> Successfully signed the apk.
 	del "build\bzty_temp.apk"
 ) else (
-	echo ^<Compiler^> Wrong APK! Please find the correct apk. Correct Package Name & Version: com.homy.graffiti.uc, 1.0.6
+	echo ^<Compiler^> Wrong APK! Please find the correct apk. Correct Package Name & Version: com.shiyu.paintman.party, 1.2.10
 )
 pause
